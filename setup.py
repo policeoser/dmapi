@@ -2,17 +2,16 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='example_publish_pypi_dmapi',
+    name='instadmapi',
     version='0.6',
     license='MIT',
     author="Police",
     author_email='email@example.com',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    url='https://github.com/police/example-publish-pypi',
+    url='https://github.com/police/dmapi',
     keywords='example project',
     install_requires=[
-          'scikit-learn',
         'discord',
         'requests',
         'instagrapi',
